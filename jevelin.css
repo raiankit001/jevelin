@@ -1,0 +1,525 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+.header {
+    background-image: url("./jevelin_shufflehound_com/black-smoke.jpeg");
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 100%;
+}
+
+.navbar {
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 10px;
+    text-align: center;
+    position: sticky;
+}
+
+
+.navbar img {
+    margin-top: 45px;
+    cursor: pointer;
+
+}
+
+.nav {
+    margin-top: 20px;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+.nav ul li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 15px 0 15px;
+}
+
+.fa-shopping-cart {
+    scale: 1.5;
+}
+
+/* ---------HOME----------- */
+
+.container {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.row-1 {
+    margin-top: 120px;
+}
+
+.col-1,
+.col-2 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.col-1 h4 {
+    color: red;
+}
+
+.col-2 h4 {
+    color: #555;
+}
+
+.headline {
+    color: white;
+    font-size: 75px;
+    line-height: 118px;
+}
+
+.main-img {
+    position: relative;
+    top: -220px;
+    scale: 0.9;
+}
+
+.btn {
+    color: white;
+    height: 60px;
+    width: 200px;
+    position: relative;
+    top: -420px;
+    margin: auto;
+    font-weight: 700;
+    background-color: rgb(253, 55, 55);
+    border-radius: 30px;
+    display: grid;
+    align-items: center;
+    transition: background-color 0.5s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+/* <!---------------page2------------------> */
+.row-2 {
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.col-2-1 {
+    flex: 1;
+}
+
+.col-2-1 img {
+    margin-left: 60px;
+    width: 640px;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.col-2-2 {
+    flex: 1;
+    padding-left: 70px;
+
+}
+
+.btn-2 {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    padding: 3px 20px;
+    border-radius: 10px;
+    font-size: small;
+    font-weight: 500;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.col-2-2 h2 {
+    font-size: 60px;
+    line-height: 65px;
+    width: 600px;
+}
+
+.col-2-2 p {
+    width: 475px;
+    padding-top: 50px;
+}
+
+.col-2-2 .bld {
+    padding: 20px 0;
+    font-weight: 700;
+    color: #555;
+}
+
+/* <!---------------page3------------------>  */
+/* offers */
+.offers h2 {
+    margin-left: 220px;
+    font-size: 55px;
+}
+
+.offer-box {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.offer-box img {
+    width: 100%;
+}
+
+.col-3-1 {
+    width: 527px;
+    padding-left: 109px;
+    padding-top: 100px;
+}
+
+.col-3-2 {
+    display: flex;
+}
+
+.col-3-1,
+.col-3-2 {
+    justify-content: center;
+    /* flex: 1;; */
+}
+
+.offer-box ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.new-in-town-btn {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: rgb(255, 60, 60);
+}
+
+.col-3-1 h3 {
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.col-3-1 ul li {
+    /* display: flex; */
+    margin-left: 25px;
+    border: 1px solid #d7d7d7;
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #767676;
+    margin-bottom: 25px;
+}
+
+.col-3-1 p {
+    line-height: 2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.col-3-1 .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.col-3-1 .row .cart-add-btn {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    height: 35px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+/* -------------- */
+.col-3-2 {
+    padding-left: 50px;
+    text-align: center;
+}
+
+.col-3-2 img {
+    scale: .5;
+    height: 200px;
+}
+
+.col-3-2 .card {
+    width: 296px;
+    height: 420px;
+    background-color: rgb(252, 248, 237);
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.col-3-2 .card h4 {
+    width: 156px;
+    margin: auto;
+    font-size: larger;
+}
+
+.col-3-2 .card .rate {
+    background-color: rgb(255, 60, 60);
+    width: 60px;
+    height: 30px;
+    margin: auto;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* <!---------------page4------------------>  */
+
+.page-4 {
+    color: white;
+    height: 1550px;
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+    padding: 200px 0;
+}
+
+.page-4 .btn {
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid white;
+    position: static;
+    transition: background-color 0.5s;
+    margin-left: 0;
+}
+
+.page-4 .btn:hover {
+    background-color: rgb(253, 55, 55);
+    border: none;
+}
+
+.page-4 .row-4 {
+    display: flex;
+}
+
+.page-4 .row-4-2 {
+    justify-content: end;
+}
+
+.page-4 .btn-2 {
+    background-color: rgb(255, 60, 60);
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: bolder;
+    border-radius: 7px;
+}
+
+.page-4 h3 {
+    font-size: 62px;
+    width: 540px;
+    line-height: 4.5rem;
+    padding-bottom: 50px;
+}
+
+.page-4 p {
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+.row-4-2 .text {
+    margin-top: 130px;
+}
+
+
+/* <!---------------page5------------------> */
+
+.page-5 {
+    margin-top: 160px;
+    margin-bottom: 90px;
+}
+
+.page-5 h2 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+}
+.page-5 h3{
+    font-size: 26px;
+    line-height: 4rem;
+}
+.page-5 p{
+    line-height: 2rem;
+    color: #555;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.card-row-4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.page-5 img {
+    width: 100%;
+    padding-top: 35px;
+}
+
+
+.card-4-4 {
+    padding: 20px;
+    width: 317px;
+    height: 535px;
+    border-radius: 10px;
+    background-color:rgb(255 248 243);;
+    margin: 10px;
+}
+.card-4-4 .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-4-4 .row .price{
+    background-color: rgb(255, 60, 60);
+    font-size: 25px;
+    color: white;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+.card-4-4 .row .cart-add-btn{
+    font-weight: 700;
+}
+/* --------------page-6----------------- */
+
+.page6 img{
+    margin-left: 30px;
+    width: 715px;
+}
+.page6 .fa-quote-right{
+    color: red;
+    margin-top: 50px;
+    margin-left: 30px;
+    scale: 5;
+}
+.page6 .bld{
+    font-size: 20px;
+    padding-top: 50px;
+    color: black;
+}
+
+/* ------------gallery---------------- */
+
+.gallery{
+    display: flex;
+    width: 100%;
+    margin: 190px 0;
+}
+
+.gallery img{
+    width: 25%;
+}
+/* ------------contact---------------- */
+
+.contact{
+    width: 100%;
+    margin-bottom: 190px;
+}
+.contact .cont-1 .fa{
+    font-size: 25px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+.contact .cont-2 .fa{
+    color: rgb(255, 47, 47);
+}
+
+.contact img {
+    padding-top: 10px;
+    height: 34px;
+    margin-bottom: 24px;
+}
+.contact p{
+    margin: 20px 0 20px;
+    width: 300px;
+    color: #555;
+    font-size: 20px;
+    line-height: 2rem;
+}
+.contact h3{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.cont-row{
+    margin: auto;
+    display: flex;
+    width: 1230px;
+    justify-content: center;
+}
+.contact .cont{
+    padding: 30px;
+    flex:1;
+}
+.contact ul li{
+    list-style-type: none;
+    line-height: 2.5rem;
+    font-size: 18px;
+    color: #555;   
+}
+
+.cont-3 {
+    text-align: center;
+}
+.cont-3 p{
+    margin: auto;
+    padding-top: 20px;
+}
+.cont-3 .btn{
+    text-align: center;
+    position: static;
+    margin: auto;
+    width:100%;
+}
+.cont-3 .btn:hover{
+    background-color: black;
+    border: none;
+}
+#contact-mail{
+    border: none;
+    background-color: rgb(236, 234, 234);
+    height: 60px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+}
+#contact-mail:hover{
+    box-shadow: 0px 0px 10px rgb(186, 186, 186);
+}
+.gmap_canvas{
+    height: 430px;
+}
